@@ -19,8 +19,6 @@
 let data = [ 'apel', 'jeruk', 'pisang' ];
 let fruitName = '';
 
-$: updatedData = data.length;
-
 const addFruit = () => {
   data.push(fruitName);
   data = data;
